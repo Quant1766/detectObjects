@@ -8,6 +8,7 @@ thres = 0.45 # Threshold to detect object
 # cv2.startWindowThread()
 cap = cv2.VideoCapture(0)
 
+### for IP CAM
 # cap = cv2.VideoCapture('rtsp://admin:admin@192.168.1.108/',apiPreference=cv2.CAP_FFMPEG)
 
 cap.set(3,1280)
